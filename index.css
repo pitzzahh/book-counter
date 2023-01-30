@@ -1,0 +1,90 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1505664063603-28e48ca204eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: rgb(187, 187, 187);
+    max-width: 50%;
+    min-width: 80%;
+    min-height: 50%;
+    border: 3px solid #233D4D;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid #FE7F2D;
+    padding: 10px;
+    color: white;
+    max-width: 60%;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#btn-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+}
+
+#increment-btn {
+    background: #2C2891;
+    min-width: 70%;
+    justify-self: center;
+}
+
+#save-btn {
+    background: #1C7947;
+    min-width: 70%;
+    justify-self: center;
+}
+
+#save-el {
+    font-weight: bold;
+}
+
+#save-el, h1, h2 {
+    color: rgb(32, 30, 30);
+}
+
+#reset-btn {
+    background: #bd224e;
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    color: rgb(224, 217, 217);
+    padding: 3px;
+}
+
+#reset-btn:hover {
+    background-color: #233D4D;
+    color: rgb(179, 173, 173);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        min-width: 30%;
+    }
+    
+}
